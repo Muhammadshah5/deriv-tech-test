@@ -1,0 +1,20 @@
+{
+  "strategies": {
+    "paragraph": {
+      "top3_hit_rate": 1.0,
+      "total_queries": 5,
+      "hits": 5,
+      "partial_hits": 0,
+      "misses": 0
+    },
+    "fixed": {
+      "top3_hit_rate": 1.0,
+      "total_queries": 5,
+      "hits": 5,
+      "partial_hits": 0,
+      "misses": 0
+    }
+  },
+  "best_strategy": "paragraph",
+  "tradeoff_notes": "Paragraph chunking preserves semantic units (each fact is a sentence). Fixed-size chunking may split semantic units but offers more uniform embedding-space coverage. For small, well-structured KBs paragraph chunking is usually superior."
+}
