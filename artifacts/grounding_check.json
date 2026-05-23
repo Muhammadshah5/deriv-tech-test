@@ -34,37 +34,41 @@
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
-          "after",
-          "expire",
-          "links",
-          "minutes",
+          "can",
+          "email",
+          "forgets",
+          "from",
+          "login",
+          "page",
           "password",
-          "reset"
+          "request",
+          "reset",
+          "their"
         ]
       }
     ]
   },
   {
     "query_id": "Q3",
-    "answer_label": "conflicting_context",
+    "answer_label": "grounded_answer",
     "num_citations": 1,
-    "all_citations_valid": false,
+    "all_citations_valid": true,
     "citations": [
       {
         "citation": "[Password reset and account recovery §password_reset_and_account_recovery__chunk_1]",
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
-          "agents",
-          "cannot",
-          "manually",
+          "can",
+          "email",
+          "forgets",
+          "from",
+          "login",
+          "page",
           "password",
-          "passwords",
+          "request",
           "reset",
-          "reveal",
-          "see",
-          "support",
-          "user"
+          "their"
         ]
       }
     ]
@@ -80,13 +84,16 @@
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
-          "accepted",
-          "bills",
-          "months",
-          "not",
-          "older",
-          "than",
-          "utility"
+          "address",
+          "date",
+          "documents",
+          "full",
+          "issue",
+          "must",
+          "name",
+          "proof",
+          "show",
+          "user"
         ]
       }
     ]
