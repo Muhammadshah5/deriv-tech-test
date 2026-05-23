@@ -6,7 +6,7 @@
     "all_citations_valid": true,
     "citations": [
       {
-        "citation": "[Cash withdrawal processing §cash_withdrawal_processing__chunk_1]",
+        "citation": "[Cash withdrawal processing §cash_withdrawal_processing__fx_1]",
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
@@ -30,7 +30,7 @@
     "all_citations_valid": true,
     "citations": [
       {
-        "citation": "[Password reset and account recovery §password_reset_and_account_recovery__chunk_1]",
+        "citation": "[Password reset and account recovery §password_reset_and_account_recovery__fx_1]",
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
@@ -46,12 +46,12 @@
   },
   {
     "query_id": "Q3",
-    "answer_label": "conflicting_context",
+    "answer_label": "grounded_answer",
     "num_citations": 1,
-    "all_citations_valid": false,
+    "all_citations_valid": true,
     "citations": [
       {
-        "citation": "[Password reset and account recovery §password_reset_and_account_recovery__chunk_1]",
+        "citation": "[Password reset and account recovery §password_reset_and_account_recovery__fx_1]",
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
@@ -60,11 +60,11 @@
           "manually",
           "password",
           "passwords",
+          "reasons",
           "reset",
           "reveal",
-          "see",
-          "support",
-          "user"
+          "security",
+          "see"
         ]
       }
     ]
@@ -76,7 +76,7 @@
     "all_citations_valid": true,
     "citations": [
       {
-        "citation": "[Document verification requirements §document_verification_requirements__chunk_1]",
+        "citation": "[Document verification requirements §document_verification_requirements__fx_1]",
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
@@ -98,7 +98,7 @@
     "all_citations_valid": true,
     "citations": [
       {
-        "citation": "[Demo account behaviour §demo_account_behaviour__chunk_1]",
+        "citation": "[Demo account behaviour §demo_account_behaviour__fx_1]",
         "exists_in_retrieval": true,
         "supports_answer": true,
         "overlap_tokens": [
